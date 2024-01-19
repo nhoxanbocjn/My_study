@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>THÔNG TIN CÁ NHÂN</h1>
+    <form action="/B2/action_page.php">
+        <label for="username">Username: </label><br>
+        <input type="text" id="username" name="username" minlength="4" maxlength="30"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"></input><br><br>
+        <label for="province">Tỉnh:</label>
+        <select id="province" name="province" size="3">
+            <option value="HCM">HCM</option>
+            <option value="Vũng Tàu">Vũng Tàu</option>
+            <option value="Bình Dương">Bình Dương</option>
+            <option value="Khác">Khác</option>
+        </select><br><br>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" autofocus autocomplete="on"><br><br>
+        <label for="web">Website: </label><br>
+        <input type="url" id="web" name="web"><br><br>
+        <label for="sex">Giới tính: </label>
+        <input type="radio" name="sex" value="Nam" checked> Nam
+        <input type="radio" name="sex" value="Nữ"> NỮ<br><br>
+        <label for="bday">Ngày sinh</label><br>
+        <input type="date" name="bday" min="02-01-2023"></input><br><br>
+        <label for="pts">Điểm</label><br>
+        <input type="number" name="pts" min="0" max="10" step="0.5" value="5"></input><br><br>
+        <label for="favcol">Màu yêu thích </label><br>
+        <input type="color" name="favcol" value="#ffffff"></input><br><br>
+        <input type="submit"></input>
+    </form>
+</body>
+
+</html>

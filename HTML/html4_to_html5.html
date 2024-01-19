@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        *:hover {
+            outline: 5px solid rgb(255, 0, 0);
+        }
+
+
+        section,
+        header,
+        hgroup,
+        footer,
+        nav,
+        article,
+        aside,
+        figure,
+        figcaption,
+        aside,
+        .section,
+        .header,
+        .hgroup,
+        .footer,
+        .nav,
+        .article,
+        .aside,
+        .figure,
+        .figcaption,
+        .aside {
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgba(153, 153, 153, .25);
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        section,
+        aside,
+        .section,
+        .aside {
+            float: left;
+        }
+
+        header,
+        footer,
+        .header,
+        .footer {
+            clear: both;
+        }
+
+        #pagecontent {
+            margin: 0 auto;
+            max-width: 1045px;
+            min-width: 480px;
+            width: 100%;
+        }
+
+        #pageheader,
+        #pagefooter {
+            max-width: 1020px;
+            min-width: 480px;
+            width: 100%;
+        }
+
+        #sectioncontent1 {
+            max-width: 600px;
+            min-width: 400px;
+            width: 100%;
+
+        }
+
+        #asidecontent1 {
+            max-width: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pagecontent" class="pagecontent">
+
+        <div id="pageheader" class="header pageheader">
+
+            <div id="pagehgroup" class="pagehgroup">
+                <h1 class="sitename"><a href="/" rel="home" title="Home">HTML5 Structure</a></h1>
+                <h2 class="subtitle">Page Header</h2>
+            </div>
+
+            <div id="globalnav" class="nav globalnav">
+                <p>Navigation</p>
+            </div>
+
+        </div>
+
+        <div id="sectioncontent1" class="section sectioncontent">
+            <div id="sectionheader1" class="header sectionheader">
+                <h2>Section Header</h2>
+            </div>
+
+            <div id="articlecontent1" class="article articlecontent">
+                <div id="articleheader1" class="header articleheader">
+                    <h3>Article Header</h3>
+                </div>
+                <p>Artcle</p>
+                <div id="figure1" class="figure">
+                    <p>Figure</p>
+                    <div class="figcaption">Figure Caption</div>
+                </div>
+                <div id="articlefooter1" class="footer articlefooter">
+                    <p>Article footer</p>
+                </div>
+            </div>
+
+            <div id="articlecontent2" class="article articlecontent">
+                <div id="articleheader2" class="header articleheader">
+                    <h3>Article Header</h3>
+                </div>
+                <p>Article</p>
+                <div id="fugure2" class="figure">
+                    <p>Figure</p>
+                    <div class="figcaption">Figure Caption</div>
+                </div>
+                <div id="articlefooter2" class="footer articlefooter">
+                    <p>Article footer</p>
+                </div>
+            </div>
+
+            <div id="sectionfooter1" class="footer sectionfooter">
+                <p>Section Footer</p>
+            </div>
+        </div>
+
+        <div id="asidecontent1" class="aside asidecontent">
+            <div class="header sectionheader">
+                <h2>Aside Header</h2>
+            </div>
+
+            <div>
+                <div class="header articleheadeer">
+                    <h3>Aside Article Header</h3>
+                </div>
+                <p>Aside Artcle Copy</p>
+                <div id="articlefooter2" class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="header articleheadeer">
+                    <h3>Aside Article Header</h3>
+                </div>
+                <p>Aside Artcle Copy</p>
+                <div class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="header articleheadeer">
+                    <h3>Aside Article Header</h3>
+                </div>
+                <p>Aside Artcle Copy</p>
+                <div class="footer articlefooter">
+                    <p>Aside Article footer</p>
+                </div>
+            </div>
+
+            <div class="header articlefooter">
+                <p>Aside footer</p>
+            </div>
+        </div>
+
+        <div id="pagefooter" class="footer pagefooter">
+            <p>Page Footer</p>
+        </div>
+    </div>
+</body>
+
+</html>
