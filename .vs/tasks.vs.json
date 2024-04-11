@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-HTML_CSS_JS_C#(ADMIN)",
+      "appliesTo": "HTML_CSS_JS_C#(ADMIN)/",
+      "type": "launch"
+    }
+  ]
+}
